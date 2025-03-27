@@ -1,0 +1,12 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "deploy": {
+    "startCommand": "node index.js",
+    "installCommand": "npm install",
+    "restartPolicyType": "always"
+  }
+}
